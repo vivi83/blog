@@ -1,0 +1,36 @@
+h2{
+    color:blue;
+}
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding:1rem;
+    border:1px solid #cccccc;
+}
+.listeArticle{
+display:flex;
+ flex-wrap:wrap ;
+}
+
+.listeArticle article {
+    margin:0.5rem;
+    width: calc( 100% / 3 - 1rem);
+   
+}
+
+.listeArticle article h3{
+    color:blue;
+}
+
+.listeArticle article p{
+    width: calc(100% )
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+}
+.admin > * {
+    margin:0.25rem;
+    padding:0.25rem;
+}
